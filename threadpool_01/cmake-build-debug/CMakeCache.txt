@@ -178,6 +178,9 @@ ProcessorCount_cmd_getconf:FILEPATH=/usr/bin/getconf
 //Path to a program.
 ProcessorCount_cmd_sysctl:FILEPATH=/sbin/sysctl
 
+//Dependencies for target
+mythread_LIB_DEPENDS:STATIC=
+
 //Value Computed by CMake
 threadpool_01_BINARY_DIR:STATIC=/home/sun/Mthreadpool/threadpool_01/cmake-build-debug
 

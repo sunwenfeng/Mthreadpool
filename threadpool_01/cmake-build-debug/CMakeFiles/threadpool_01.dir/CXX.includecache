@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sun/Mthreadpool/threadpool_01/main.cpp
+iostream
+-
+zconf.h
+-
+threadpool.h
+/home/sun/Mthreadpool/threadpool_01/threadpool.h
+
+/home/sun/Mthreadpool/threadpool_01/threadpool.cpp
+cstdlib
+-
+iostream
+-
+threadpool.h
+/home/sun/Mthreadpool/threadpool_01/threadpool.h
+
+/home/sun/Mthreadpool/threadpool_01/threadpool.h
+pthread.h
+-
+deque
+-
+thread_db.h
+-
+
