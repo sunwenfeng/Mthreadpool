@@ -1,0 +1,1 @@
+/usr/bin/c++    -Wall -g -pthread -g   CMakeFiles/threadpool_02.dir/main.cpp.o CMakeFiles/threadpool_02.dir/threadpool.cpp.o  -o threadpool_02 

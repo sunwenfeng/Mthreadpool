@@ -1,0 +1,4 @@
+/home/sun/clion-2016.3/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/sun/Mthreadpool/threadpool_02
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sun/Mthreadpool/threadpool_02/cmake-build-debug
