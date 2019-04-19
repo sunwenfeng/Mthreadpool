@@ -9,4 +9,4 @@
 这里注意到一个问题：
 function<void()>对象可以接受任意参数的函数,这样线程池就可以接受不同参数的任务。在main()的测试中，可以把int run(int i,const char* p) 和 int run(int a,int b,const char* p)两种函数bind之后传给function<void()>;
 
-关于fuction和bind的学习，在文档threadpool.docx
+关于fuction和bind的学习，在文档zl_threadpool/threadpool_03.docx
